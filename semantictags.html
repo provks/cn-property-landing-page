@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Tags, Table and Form</title>
+</head>
+<body>
+    <!-- Table -->
+    <table border="1" cellspacing="20" cellpadding="10" width="30%" align="left">
+        <caption>Student Details</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th colspan="2">Age</th>
+                <th>City</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Bhavna</td>
+                <td>21</td>
+                <td>Delhi</td>
+            </tr>
+            <tr>
+                <td>Sunish</td>
+                <td>22</td>
+                <td>Lucknow</td>
+            </tr>
+            <tr>
+                <td>Shraddha</td>
+                <td>23</td>
+                <td>Hyderabad</td>
+            </tr>
+            
+        </tbody>
+    </table>
+
+    <!-- Form -->
+    <form action="#" method="get">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" min="18" max="100" id="age" name="age"><br><br>
+
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>&ensp;
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="india">India</option>
+            <option value="usa">USA</option>        
+        </select><br><br>
+
+        <!-- example for multiple checkbox   -->
+        <label for="hobbies">Hobbies:</label>
+        <input type="checkbox" id="reading" name="hobbies" value="book">
+        <label for="reading">Reading</label>
+        <input type="checkbox" id="traveling" name="hobbies" value="mountain">
+        <label for="traveling">Traveling</label>
+        <input type="checkbox" id="sports" name="hobbies" value="cricket">
+        <label for="sports">Sports</label><br><br>  
+
+        <!-- <input type="checkbox" id="terms" name="terms" value="accepted">
+        <label for="terms">I agree to the terms and conditions</label><br><br> -->
+
+        <!-- Textarea -->
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="10" cols="50"></textarea><br><br>
+
+        <!-- Reset button -->
+        <input type="reset" value="Reset">
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
