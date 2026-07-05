@@ -1,0 +1,131 @@
+/* styling body */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+/* styling header/navbar */
+header {
+  background-color: #2d2c2c;
+  color: white;
+}
+
+header h2 {
+  margin: 0;
+  padding: 10px;
+  font-size: 24px;
+  font-weight: normal;
+  font-family:  Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Hero Section */
+.hero-content {
+    background-image: url('property.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+.hero-content h1 {
+    padding: 50px 20px;
+    font-size: 48px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 24px;
+    font-style: italic;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.hero-content a button{
+    padding: 10px 20px;
+    color: white;
+    background: #fc4a1a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    margin-left: 42%;
+    cursor: pointer;
+    border-color: white;
+}
+
+/* Main section */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.property-details, .property-video, .property-location, .why-choose-us {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.why-choose-us ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+
+.why-choose-us li {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.why-choose-us li::before {
+    content: '✅ ';
+}
+
+/* CTA Section */
+.cta {
+    text-align: center;
+    color: white;
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 20px;
+}
+
+.cta input {
+    padding: 10px;
+    width: 50%;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.cta button {
+    padding: 10px 20px;
+    color: white;
+    background: #fc4a1a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Footer section */
+footer {
+    background-color: #2d2c2c;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 12px;
+}

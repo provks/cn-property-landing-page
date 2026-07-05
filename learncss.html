@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learning HTML</title>
+    <style>
+      p {
+        color: lavender;
+        background-color: black;
+      }
+      span {
+        color: grey;
+        font-weight: bold;
+        text-decoration: underline;
+      }
+      /* #strong {
+        color: blue;
+      } */
+      /* .strong-element {
+        color: green;
+      } */
+      div > p > strong {
+        color: red;
+      }
+       strong {
+        color: purple;
+       }
+    </style>
+    <link rel="stylesheet" href="first.css" />
+  </head>
+  <body>
+    <!-- Opening and closing tags/ Elements -->
+    <!-- Inline CSS -->
+    <h1 style="color: rgb(0, 0, 255)">Welcome to HTML Learning</h1>
+    <h2 style="color: rgb(123, 83, 30);">Subheading H2</h2>
+    <h3 style="color: pink; background-color: red; font-size: 40px;">Sub-subheading H3</h3>
+    <h4 class="blue-heading">Heading 4</h4>
+    <h5 class="blue-heading">Heading 5</h5>
+    <h6 id="redHeading">Heading 6</h6>
+
+    <h7>Heading 7</h7>
+
+    <p>
+      This is a basic HTML page. Lorem ipsum dolor sit amet consectetur,
+      adipisicing elit. Voluptate, exercitationem corporis, vitae debitis
+      dolores magnam accusamus obcaecati consectetur quisquam beatae magni sit
+      cum, inventore repellendus quo ipsa odit omnis? Optio pariatur consectetur
+      perspiciatis, numquam expedita necessitatibus autem porro. Ullam possimus
+      delectus aspernatur molestias facilis rem amet dolor veniam tempore
+      distinctio, modi placeat consequatur eius odit eaque explicabo recusandae
+      consectetur praesentium tenetur dolorem asperiores nihil sunt maiores!
+      Repudiandae dignissimos ea, aperiam dolorum numquam eum doloribus voluptas
+      iure quo fuga quisquam id quibusdam. Tenetur, illum quam accusantium
+      corrupti voluptate reprehenderit numquam provident architecto vel dolore
+      tempore nostrum aut laborum alias id officiis.
+    </p>
+    <p>This is my second paragraph</p>
+    <span>This is my span tag</span>
+    <br /><br /><br />
+    <span>This is my span tag</span>
+    <span>This is my span tag 2</span>
+
+    <!-- Void Elements/ Self closing tags -->
+    <!-- Horizontal line -->
+    <hr />
+    <!-- line break -->
+
+    <br />
+
+    <!-- Inline Elements (Text emphasis elements) -->
+     <div>
+      <p>
+        <strong class="strong-element" id="strong">This is my strong tag</strong>
+      </p>
+     </div>
+    <b>This is my bold tag</b>
+    <i>This is my italic tag</i>
+
+    <div>This is my div tag</div>
+
+    <!-- Lists -->
+    <!-- Unordered List -->
+    <ul type="square">
+      <li>HTML stands for HyperText Markup Language.</li>
+      <li>It is used to create web pages.</li>
+      <li>HTML elements are the building blocks of web pages.</li>
+    </ul>
+    <!-- Ordered List -->
+    <ol type="1">
+      <li>HTML stands for HyperText Markup Language.</li>
+      <li>It is used to create web pages.</li>
+      <li>HTML elements are the building blocks of web pages.</li>
+      <li>HTML elements are the building blocks of web pages.</li>
+      <li>HTML elements are the building blocks of web pages.</li>
+    </ol>
+    <!-- Description List -->
+    <dl>
+      <dt>HTML</dt>
+      <dd>HyperText Markup Language</dd>
+      <dt>CSS</dt>
+      <dd>Cascading Style Sheets</dd>
+      <dt>JS</dt>
+      <dd>JavaScript</dd>
+    </dl>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio eum autem molestiae esse ratione adipisci aliquam soluta veniam nihil architecto.</p>
+
+    <!-- Media -->
+    <img src="img_girl.jpg" alt="Girl in a jacket" width="700" height="900" />
+
+    
+  </body>
+</html>
